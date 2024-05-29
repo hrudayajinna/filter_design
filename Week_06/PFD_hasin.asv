@@ -1,0 +1,6 @@
+% Call the pfd function and provide input values
+[A, B] = PFD(100, 101);
+
+% Display the output values
+disp(['Qa: ' num2str(A)]);
+disp(['Qb: ' num2str(B)]);
